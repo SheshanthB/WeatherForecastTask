@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.date-label{
+  padding: 30px;
+}
+.forecast-header{
+  color: rgb(100, 100, 100);
+}
+.button{
+  border-radius: 5px;
+}
+.forecast-table{
+  display: flex;
+  border-collapse: collapse;
+  padding: 30px 10%;
+  
+}
+.forecast-tab{
+  border: solid 1px rgb(29, 29, 29);
+  border-radius: 2%; 
+  word-wrap: break-word;
+  width: 75px;
+}
+.forecast-img{
+  width: 40px;
+}
+.temp{
+  font-size: calc(20px + 2vmin);
+  padding: 25%;
+}
+.forecast-message{
+ padding: 50%;
+}
+.red{
+  background-color: rgb(204, 70, 70);
+  display: flex;
+  border-radius: 5px;
+  color: antiquewhite;
+}
+.blue{
+  background-color: rgb(44, 119, 206);
+  display: flex;
+  border-radius: 5px;
+  color: antiquewhite;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
